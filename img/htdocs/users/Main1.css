@@ -1,0 +1,86 @@
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+.EnterText
+{
+    color: #2abc1b;
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 592px;
+    font-family: Gordita;
+    font-size: 25px;
+}
+#EnterRec12
+{
+position: absolute;
+    width: 370px;
+left: 488px;
+top: 200px;
+border: 5px solid #2abc1b;
+    border-radius: 45px;
+    z-index: -1;
+}
+#EnterRec2
+{
+position: absolute;
+width: 270px;
+height: 48px;
+left: 538px;
+top: 376px;
+border: 2px solid #2abc1b;
+background: white;
+border-radius: 22px;
+}
+#EnterRec3
+{
+position: absolute;
+width: 270px;
+height: 48px;
+left: 538px;
+top: 476px;
+border: 2px solid #2abc1b;
+background: white;
+border-radius: 22px;
+}
+
+#EnterRec4
+{
+position: absolute;
+width: 270px;
+height: 48px;
+left: 538px;
+top: 276px;
+border: 2px solid #2abc1b;
+background: white;
+border-radius: 22px;
+}
+
+button.knopka2 
+{	
+position: absolute;
+width: 171px;
+height: 40px;
+left: 588px;
+top: 550px;
+font-size: 18px;
+    font-family: Gordita;
+	background-color: white; 
+border: 2px solid #2abc1b;
+	padding: 5px; 
+	border-radius: 50px;
+} 
+button.knopka2:hover 
+{ 
+	background: #2abc1b; 
+}
+li
+{
+    list-style-type: none;
+}
+

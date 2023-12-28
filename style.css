@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+}
+#form
+{
+    font-size: 20px;
+}
+#offauth {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin: 10px 10px 10px 10px;
+}
+.carousel-caption
+{
+    margin-bottom: 300px;
+    font-size: 25px;
+}
+#authreg
+{
+    margin: 100px 100px 100px 100px;
+}
+.blockquote
+{
+    font-size: 25px;
+}
+.figure
+{
+    position: relative;
+}
+.my-carousel
+{
+    padding: 0;
+}
+.my-carousel .carousel-item
+{
+    display: flex;
+    max-height: 910px;
+    min-height: 500px;
+}
+.my-carousel .carousel-item img
+{
+    object-fit: cover;
+}
+.card
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.card-group
+{
+    margin-bottom: 50px;
+}
+.footer
+{
+    font-size: 18px;
+    background-color: rgb(179, 179, 179);
+    color: black;    
+}
+.footer h4
+{
+    padding-bottom: 1px;
+    padding-top: 15px;
+}
+.footer a 
+{
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+.footer a:hover
+{
+    color: white;
+}
+.footer-dark
+{
+    font-size: 18px;
+    background-color: black;
+    color: rgb(209, 209, 209);    
+}
+.footer-dark h4
+{
+    padding-bottom: 1px;
+    padding-top: 15px;
+    color: rgb(209, 209, 209);
+}
+.footer-dark a 
+{
+    text-decoration: none;
+    transition: 0.3s;
+    color: rgb(209, 209, 209);
+}
+.footer-dark a:hover
+{
+    color: rgb(99, 99, 99);
+}
+.form-control ._error
+{
+    box-shadow: 0 0 15px red;
+}
+.important
+{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,806 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header_greenhead{
+position: absolute;
+width: 100%;
+height: 35px;
+left: 0px;
+top: 0px;
+font-family: Gordita;
+background: #2ABC1B;
+}
+.header{
+width: 100%;
+height: 113px;
+background: #F3F3F3;
+}
+#logo
+{
+position: absolute;
+left: 326px;
+top: 56px;
+}
+.nav_header{
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+}
+/*
+#katalog{
+position: absolute;
+left: 594px;
+top: 63px;
+}
+*/
+#contacts {
+position: absolute;
+left: 893px;
+top: 63px;
+}
+#apteki{
+position: absolute;
+left: 1209px;
+top: 63px;
+}
+li
+{
+     list-style-type: none;
+}
+
+#heart {
+position: absolute;
+left: 1362px;
+top: 57px;
+
+background: url(heart.png);
+}
+#phone {
+position: absolute;
+left: 1420px;
+top: 58px;
+
+background: url(phone.png);
+}
+#trash {
+position: absolute;
+left: 1478px;
+top: 57px;
+
+background: url(trash.png);
+}
+
+
+/* ШАПКА-ШАПКА-ШАПКА-ШАПКА-ШАПКА-ШАПКА-ШАПКА */
+
+
+.footer
+{
+position: absolute;
+width: 100%;
+height: 194px;
+left: 0px;
+top: 1726px;
+background: #F3F3F3;
+}
+.logo2
+{
+    margin-top: 26px;
+    margin-left: 340px;
+}
+.visa
+{
+    position: absolute;
+    top: 115px;
+    left: 345px;
+   
+}
+.mastercard
+{
+  position: absolute;
+    top: 110px;
+    left: 425px;
+
+}
+h1 {
+    color: #2ABC1B;
+    font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+}
+.footer_help
+{
+
+   font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+    margin-top: -35px;
+    margin-left: 700px; 
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.footer_about
+{
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+    margin-top: -105px;
+    margin-left: 1100px; 
+}
+.navcolor
+{
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.navcolor:hover
+{
+    color: #2abc1b;
+}
+
+.social
+{
+    margin-left: 1450px;
+    margin-top: -100px;
+    font-family: Gordita;
+}
+.socialphotos
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1450px;
+}
+.ad
+{
+    height: 274px;
+    width: 100%;
+}
+.ad2
+{
+    height: 429px;
+    width: 100%;
+top: 386px;
+}
+#drugs
+{
+    width: 100%;;
+}
+#boxmain1{
+position: absolute;
+width: 317px;
+height: 67px;
+left: 329px;
+top: 156px;
+background: #FFFFFF;
+border-radius: 10px;
+    border-color: white;
+    font-family: Gordita;
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+
+.footerApteki
+{
+position: absolute;
+width: 100%;
+height: 194px;
+left: 0px;
+top: 1000px;
+background: #F3F3F3;
+}
+.karta
+{
+position: absolute;
+left: 334px;
+top: 382px;
+}
+.dropbtn {
+    position: absolute;
+width: 200px;
+height: 30px;
+left: -15px;
+top: -15px;
+font-size: 15px;
+    font-family: Gordita;
+	background-color: #2abc1b; 
+border: 2px solid #2abc1b;
+	border-radius: 1px;
+       
+}
+.dropbtnKat {  
+   
+font-size: 24px;
+ 
+    margin-left: 55px;
+    font-family: Gordita;
+background-color: #F3F3F3;
+    border: none;  
+  
+
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+}
+.dropdown-content1 a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  
+}
+.dropdown-content1 a:hover {background-color: #2abc1b;}
+.dropdown1:hover .dropdown-content1 {display: block;}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    font-family: Gordita;
+    font-size: 15px;
+    margin-top: 55px;
+    margin-left: 550px;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Gordita;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 330px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #2abc1b;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.AptekaMain{
+position: absolute;
+width: 1179px;
+height: 518px;
+left: 332px;
+top: 247px;
+
+background: #FBFBFB;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 1px;
+    z-index: -1;
+}
+.AptekaText1{
+position: absolute;
+width: 300px;
+height: 26px;
+margin-top: 20px;
+margin-left:  50px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+color: #000000;
+}
+#MakeText1 {
+position: absolute;
+width: 700px;
+height: 32px;
+left: 332px;
+top: 70px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 32px;
+color: #2abc1b;
+}
+.AptekaNav
+{
+position: absolute;
+width: 400px;
+height: 16px;
+left: 332px;
+top: 10px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 16px;
+
+color: #2ABC1B;
+}
+
+.AptekaRec1 {
+position: absolute;
+width: 734px;
+height: 35px;
+left: 371px;
+top: 329px;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+}
+.CartRec1 {
+position: absolute;
+width: 734px;
+height: 35px;
+left: 349px;
+top: 229px;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+}
+
+.CartBtn {
+position: absolute;
+width: 132px;
+height: 33px;
+left: 950px;
+top: 230px;
+font-size: 15px;
+    font-family: Gordita;
+    font-style: normal;
+	background-color: #2abc1b; 
+    z-index: 1;
+    border: none;
+    color: white;
+} 
+.AptekaBtn {
+position: absolute;
+width: 132px;
+height: 33px;
+left: 972px;
+top: 330px;
+
+font-size: 15px;
+    font-family: Gordita;
+    font-style: normal;
+	background-color: #2abc1b; 
+    z-index: 1;
+    border: none;
+    color: white;
+} 
+.tovarBtn {
+
+width: 132px;
+height: 33px;
+font-size: 15px;
+    font-family: Gordita;
+    font-style: normal;
+	background-color: #2abc1b; 
+    border: none;
+    color: white;
+} 
+button.knopka2:hover 
+{ 
+	background: #2abc1b; 
+}
+.AptekaRight
+{
+position: absolute;
+margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 807px;
+    margin-right: 0px;
+  
+}
+.navright
+{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 880px;
+    line-height: 5.4;
+    z-index: 10;
+    text-align: center; 
+}
+.AptekaResult
+{ 
+position: absolute;
+margin-left: 830px;
+    margin-top: 30px;
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 18px;
+color: #000000;
+    z-index: 1;
+   
+}
+#drugsGradient
+{
+position: absolute;
+width: 1420px;
+height: 267px;
+background: linear-gradient(90.08deg, #2ABC1B 0.07%, rgba(42, 190, 27, 0.81) 59.88%, rgba(42, 243, 21, 0) 99.93%);
+
+}
+.Tovar
+{
+position: absolute;
+width: 578px;
+height: 108px;
+left: 329px;
+top: 20px;
+font-family: Gordita;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 108px;
+color: #FFFFFF;
+}
+#reklama1
+{
+position: absolute;
+margin-left: 320px;
+margin-right: 0px;
+margin-bottom: 50px;
+margin-top: 80px;
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#reklama2
+{
+position: absolute;
+margin-left: 620px;
+margin-right: 0px;
+margin-bottom: 50px;
+margin-top: 80px;
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}#reklama3
+{
+position: absolute;
+margin-left: 920px;
+margin-right: 0px;
+margin-bottom: 50px;
+margin-top: 80px;
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}#reklama4
+{
+position: absolute;
+margin-left: 1220px;
+margin-right: 0px;
+margin-bottom: 50px;
+margin-top: 80px;
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+.skidki
+{
+position: absolute;
+width: 100%;
+height: 443px;
+left: 0px;
+top: 815px;
+
+}
+
+#skidkireklama{
+width: 100%;
+}
+#reklama5{
+position: absolute;
+margin-left: 270px;
+margin-top: 70px; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#reklama6{
+position: absolute;
+margin-left: 850px;
+margin-top: 70px; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#reklama7{
+position: absolute;
+margin-left: 1200px;
+margin-top: 270px; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#reklama8{
+position: absolute;
+margin-left: 1200px;
+margin-top: 70px; 
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
+#reklama9 {
+position: absolute;
+margin-left: 900px;
+margin-top: 50px; 
+width: 550px;
+height: 262px;
+
+}
+#reklama10 {
+position: absolute;
+margin-left: 320px;
+margin-top: 50px; 
+width: 550px;
+height: 262px;
+
+}
+.skidki2 {
+    position: absolute;
+width: 100%;
+height: 468px;
+top: 1258px;
+}
+.main
+{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 108px;
+}
+
+#AptekiText1 {
+position: absolute;
+width: 700px;
+height: 32px;
+left: 332px;
+top: 70px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 32px;
+color: #000000;
+}
+#AptekiText2 {
+position: absolute;
+width: 800px;
+left: 334px;
+top: 120px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+opacity: 50%;
+color: #000000;
+}
+#MakeText2 {
+position: absolute;
+width: 1000px;
+left: 334px;
+top: 120px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+opacity: 50%;
+color: #000000;
+}
+.navKatalog{
+position: absolute;
+width: 432px;
+height: 16px;
+top: 10px;
+left: 332px;
+font-family: Gordita;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 16px;
+color: #2ABC1B;
+}
+.tovar
+{
+    margin-top: 150px;
+    margin-left: 330px;
+}
+.SecTovar
+{
+    width: 100%;
+    height: 100%;
+}
+.tovar1
+{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    line-height: 9;
+}
+.tovarbtns
+{
+    position: absolute;
+    top: 250px;
+    left: 1077px;
+    line-height: 240px;;
+}
+.MakeOrderUl
+{
+    position: absolute;
+    top: 130px;
+    left: 332px;
+    line-height: 220px;;
+}
+#brak
+{
+    margin-left: -13px;
+}
+.MakeText3 {
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+color: #000000;
+}
+.MakeOrderPic
+{
+    position: absolute;
+    top: 265px;
+    left: 338px;
+    line-height: 13;
+}
+.cart
+{
+    position: absolute;
+    top: 100px;
+    left: 332px;
+    line-height: 150px;;
+}
+.zakaz
+{
+position: absolute;
+width: 600px;
+height: 350px;
+left: 338px;
+top: 488px;
+}
+.radio
+{
+    font-family: Gordita;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+input[type="radio"]:checked + label, 
+input[type="radio"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+input[type="radio"]:checked, 
+input[type="radio"]:not(:checked) 
+{
+    position: absolute;
+    left: -9999px;
+}
+input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+}
+input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+input[type="radio"]:checked + label:before, 
+input[type="radio"]:not(:checked) + label:before {
+    border-radius: 100%;
+}
+input[type="radio"]:checked + label:before, 
+input[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after, 
+input[type="radio"]:checked + label:after, 
+input[type="radio"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked + label:after, 
+input[type="radio"]:not(:checked) + label:after {
+    left: 5px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #2abc1b;
+}
+.itogo
+{
+position: absolute;
+left: 1150px;
+top: 160px;
+
+}
+.content
+{
+    color: black;
+    font-family: Gordita;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 388px;
+    margin-top: 200px;
+    padding: 0;
+    border: 0;
+}   
+.navcolor1
+{
+    font-size: 28px;
+    color: #2abc1b;
+}
+.KontaktText1
+{
+position: absolute;
+width: 700px;
+height: 32px;
+left: 388px;
+top: 100px;
+
+font-family: Gordita;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+color: #2abc1b;
+}
+.infomain
+{
+position: absolute;
+width: 1179px;
+height: 800px;
+left: 330px;
+top: 50px;
+
+background: #FBFBFB;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 1px;
+    z-index: -1;
+}
